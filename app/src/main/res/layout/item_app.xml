@@ -45,6 +45,7 @@
             android:textColor="@android:color/darker_gray"
             android:maxLines="1"
             android:ellipsize="end"
+            android:visibility="gone"
             tools:text="com.example.app" />
 
     </LinearLayout>
