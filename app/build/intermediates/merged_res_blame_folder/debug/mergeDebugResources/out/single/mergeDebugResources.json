@@ -1,59 +1,63 @@
 [
     {
-        "merged": "com.timerdeuso.app-debug-42:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.timerdeuso.app-main-44:/drawable/ic_launcher_background.xml"
+        "merged": "/home/vitor/.gradle/daemon/8.13/com.timerdeuso.app-debug-42:/menu_menu_main.xml.flat",
+        "source": "/home/vitor/.gradle/daemon/8.13/com.timerdeuso.app-main-44:/menu/menu_main.xml"
     },
     {
-        "merged": "com.timerdeuso.app-debug-42:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.timerdeuso.app-main-44:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "/home/vitor/.gradle/daemon/8.13/com.timerdeuso.app-debug-42:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/home/vitor/.gradle/daemon/8.13/com.timerdeuso.app-main-44:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "com.timerdeuso.app-debug-42:/drawable_ic_snooze.xml.flat",
-        "source": "com.timerdeuso.app-main-44:/drawable/ic_snooze.xml"
+        "merged": "/home/vitor/.gradle/daemon/8.13/com.timerdeuso.app-debug-42:/drawable_ic_stop.xml.flat",
+        "source": "/home/vitor/.gradle/daemon/8.13/com.timerdeuso.app-main-44:/drawable/ic_stop.xml"
     },
     {
-        "merged": "com.timerdeuso.app-debug-42:/drawable_ic_alarm.xml.flat",
-        "source": "com.timerdeuso.app-main-44:/drawable/ic_alarm.xml"
+        "merged": "/home/vitor/.gradle/daemon/8.13/com.timerdeuso.app-debug-42:/drawable_ic_warning.xml.flat",
+        "source": "/home/vitor/.gradle/daemon/8.13/com.timerdeuso.app-main-44:/drawable/ic_warning.xml"
     },
     {
-        "merged": "com.timerdeuso.app-debug-42:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.timerdeuso.app-main-44:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "/home/vitor/.gradle/daemon/8.13/com.timerdeuso.app-debug-42:/layout_item_app.xml.flat",
+        "source": "/home/vitor/.gradle/daemon/8.13/com.timerdeuso.app-main-44:/layout/item_app.xml"
     },
     {
-        "merged": "com.timerdeuso.app-debug-42:/menu_menu_main.xml.flat",
-        "source": "com.timerdeuso.app-main-44:/menu/menu_main.xml"
+        "merged": "/home/vitor/.gradle/daemon/8.13/com.timerdeuso.app-debug-42:/drawable_ic_silence.xml.flat",
+        "source": "/home/vitor/.gradle/daemon/8.13/com.timerdeuso.app-main-44:/drawable/ic_silence.xml"
     },
     {
-        "merged": "com.timerdeuso.app-debug-42:/drawable_ic_stop.xml.flat",
-        "source": "com.timerdeuso.app-main-44:/drawable/ic_stop.xml"
+        "merged": "/home/vitor/.gradle/daemon/8.13/com.timerdeuso.app-debug-42:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/home/vitor/.gradle/daemon/8.13/com.timerdeuso.app-main-44:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "com.timerdeuso.app-debug-42:/layout_activity_main.xml.flat",
-        "source": "com.timerdeuso.app-main-44:/layout/activity_main.xml"
+        "merged": "/home/vitor/.gradle/daemon/8.13/com.timerdeuso.app-debug-42:/drawable_ic_timer.xml.flat",
+        "source": "/home/vitor/.gradle/daemon/8.13/com.timerdeuso.app-main-44:/drawable/ic_timer.xml"
     },
     {
-        "merged": "com.timerdeuso.app-debug-42:/xml_backup_rules.xml.flat",
-        "source": "com.timerdeuso.app-main-44:/xml/backup_rules.xml"
+        "merged": "/home/vitor/.gradle/daemon/8.13/com.timerdeuso.app-debug-42:/layout_activity_main.xml.flat",
+        "source": "/home/vitor/.gradle/daemon/8.13/com.timerdeuso.app-main-44:/layout/activity_main.xml"
     },
     {
-        "merged": "com.timerdeuso.app-debug-42:/drawable_ic_play.xml.flat",
-        "source": "com.timerdeuso.app-main-44:/drawable/ic_play.xml"
+        "merged": "/home/vitor/.gradle/daemon/8.13/com.timerdeuso.app-debug-42:/drawable_ic_launcher_background.xml.flat",
+        "source": "/home/vitor/.gradle/daemon/8.13/com.timerdeuso.app-main-44:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "com.timerdeuso.app-debug-42:/drawable_ic_launcher_foreground.xml.flat",
-        "source": "com.timerdeuso.app-main-44:/drawable/ic_launcher_foreground.xml"
+        "merged": "/home/vitor/.gradle/daemon/8.13/com.timerdeuso.app-debug-42:/drawable_ic_snooze.xml.flat",
+        "source": "/home/vitor/.gradle/daemon/8.13/com.timerdeuso.app-main-44:/drawable/ic_snooze.xml"
     },
     {
-        "merged": "com.timerdeuso.app-debug-42:/drawable_ic_timer.xml.flat",
-        "source": "com.timerdeuso.app-main-44:/drawable/ic_timer.xml"
+        "merged": "/home/vitor/.gradle/daemon/8.13/com.timerdeuso.app-debug-42:/drawable_ic_play.xml.flat",
+        "source": "/home/vitor/.gradle/daemon/8.13/com.timerdeuso.app-main-44:/drawable/ic_play.xml"
     },
     {
-        "merged": "com.timerdeuso.app-debug-42:/drawable_ic_silence.xml.flat",
-        "source": "com.timerdeuso.app-main-44:/drawable/ic_silence.xml"
+        "merged": "/home/vitor/.gradle/daemon/8.13/com.timerdeuso.app-debug-42:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "/home/vitor/.gradle/daemon/8.13/com.timerdeuso.app-main-44:/drawable/ic_launcher_foreground.xml"
     },
     {
-        "merged": "com.timerdeuso.app-debug-42:/drawable_ic_warning.xml.flat",
-        "source": "com.timerdeuso.app-main-44:/drawable/ic_warning.xml"
+        "merged": "/home/vitor/.gradle/daemon/8.13/com.timerdeuso.app-debug-42:/drawable_ic_alarm.xml.flat",
+        "source": "/home/vitor/.gradle/daemon/8.13/com.timerdeuso.app-main-44:/drawable/ic_alarm.xml"
+    },
+    {
+        "merged": "/home/vitor/.gradle/daemon/8.13/com.timerdeuso.app-debug-42:/xml_backup_rules.xml.flat",
+        "source": "/home/vitor/.gradle/daemon/8.13/com.timerdeuso.app-main-44:/xml/backup_rules.xml"
     },
     {
         "merged": "com.timerdeuso.app-debug-42:/layout_item_app.xml.flat",
