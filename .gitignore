@@ -1,0 +1,23 @@
+# Build artifacts
+/build/
+app/build/
+.gradle/
+
+# Local configuration
+local.properties
+*.properties
+!gradle.properties
+!gradle/wrapper/gradle-wrapper.properties
+
+# Keystore / signing
+*.jks
+*.keystore
+
+# IDE - IntelliJ / Android Studio
+.idea/*
+!.idea/.gitignore
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
