@@ -196,6 +196,7 @@ class MainActivity : AppCompatActivity() {
                 return
             }
             UsageMonitorService.start(this)
+            com.timerdeuso.app.util.PrefsManager.setServiceRunning(this, true)
         }
         updateFab()
     }
