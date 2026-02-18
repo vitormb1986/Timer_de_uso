@@ -5,6 +5,8 @@ import android.app.NotificationManager
 import android.app.PendingIntent
 import android.content.Context
 import android.content.Intent
+import android.media.AudioAttributes
+import android.media.RingtoneManager
 import android.os.Build
 import androidx.core.app.NotificationCompat
 import androidx.core.app.NotificationManagerCompat
@@ -44,6 +46,13 @@ object NotificationHelper {
             vibrationPattern = longArrayOf(0, 200)
         }
 
+        // Delete and recreate alarm channel to ensure sound setting is applied on existing installs
+        manager.deleteNotificationChannel(CHANNEL_ALARM)
+        val alarmSoundUri = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_ALARM)
+        val alarmAudioAttributes = AudioAttributes.Builder()
+            .setUsage(AudioAttributes.USAGE_ALARM)
+            .setContentType(AudioAttributes.CONTENT_TYPE_SONIFICATION)
+            .build()
         val alarmChannel = NotificationChannel(
             CHANNEL_ALARM,
             "Alarmes de Limite",
@@ -52,6 +61,7 @@ object NotificationHelper {
             description = "Alarme quando o tempo limite foi atingido"
             enableVibration(true)
             vibrationPattern = longArrayOf(0, 500, 200, 500)
+            setSound(alarmSoundUri, alarmAudioAttributes)
         }
 
         manager.createNotificationChannels(listOf(serviceChannel, warningChannel, alarmChannel))
@@ -111,12 +121,14 @@ object NotificationHelper {
         )
 
         val snoozeMinutes = PrefsManager.getSnoozeMinutes(context)
+        val alarmSoundUri = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_ALARM)
 
         val notification = NotificationCompat.Builder(context, CHANNEL_ALARM)
             .setContentTitle("Limite atingido: $appName")
             .setContentText("Você usou $appName por $limitMinutes minutos!")
             .setSmallIcon(R.drawable.ic_alarm)
             .setVibrate(longArrayOf(0, 500, 200, 500))
+            .setSound(alarmSoundUri)
             .setPriority(NotificationCompat.PRIORITY_HIGH)
             .setAutoCancel(false)
             .setOngoing(true)
